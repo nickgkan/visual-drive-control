@@ -1,4 +1,4 @@
-"""Perform visual tracking a robotic arm with a camera."""
+"""Perform visual tracking of a robotic arm with a camera."""
 
 from __future__ import division
 
