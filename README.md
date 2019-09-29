@@ -1,4 +1,4 @@
-# Visual Tracking of a Robotic Arm
+# Visual Driving of a Robotic Arm
 
 Tested with Python3.5
 

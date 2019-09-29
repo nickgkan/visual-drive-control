@@ -303,6 +303,7 @@ class VisualTracker():
             axs.plot(
                 self._obj_coords_plot[t_step, 0, 4],
                 self._obj_coords_plot[t_step, 1, 4], 'g.')
+            plt.axis('off')
             plt.pause(1 / self._plot_fps)
             fig.canvas.draw()
             image = np.frombuffer(fig.canvas.tostring_rgb(), dtype='uint8')
